@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+    <style>
+        html,head,body{ 
+            margin: 0 ; 
+            padding: 0 ; 
+            background-color: rgb(20,22,28);
+            color: rgb(255,255,255) ; 
+            font-size: 1.5rem;
+        }
+        input { 
+            border:none;
+            margin:10px;
+            outline:none;
+            padding:7px;
+            color:rgb(255,255,255) ; 
+            background-color:rgb(30,30,30);
+            font-size:36px;
+            position: relative;
+            top:30%;
+            left:10%;
+        }
+    </style>  
+    <form action = "/ask" method="post">  
+        <table>  
+            <tr><td>Name</td><td><input type="text" name="name"></td></tr>  
+            <tr><td>Subject</td><td><input type="text" name="subject"></td></tr>
+            <tr><td>Question</td><td><input typr="text" name="question"></td></tr>  
+            <tr><td><input type="submit" value="Submit"></td></tr>  
+        </table>  
+    
+</html>
